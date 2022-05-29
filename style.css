@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(71.18deg, #2F2325 -0.31%, #9565D2 -0.31%, #2E171A -0.3%, #1C0E11 -0.29%, #9E27B1 85.43%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+:root{
+    --fonte_titulo: 'Righteous';
+    --font_seg: 'Sarala';
+    --cor_fonte: #FFF2E7;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+}
+.header_logo{
+    height: 3em;
+}
+.header_infos{
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    
+}
+.header_infos_cada{
+    font-family: var(--font_seg);
+    color: var(--cor_fonte);
+    font-weight: 400;
+}
+.main_principal_primeira{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.main_principal_primeira_titulo{
+    font-family: var(--fonte_titulo);
+    color: var(--cor_fonte);
+    font-weight: 400;
+    font-size: 64px;
+}
+.main_principal_primeira_sub
+{
+    font-family: var(--font_seg);
+    color: var(--cor_fonte);
+    font-size: 24px;
+}
+.main_principal_primeira_botao{
+    background-color: var(--cor_fonte);
+    width: 185px;
+    height: 67px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    font-family: var(--font_seg);
+    color: #2F2325;
+    font-size: 20px;
+}
+.main_principal_primeira_botao:hover{
+    background-color: #fff2e7c4;
+}
+.main_principal{
+    border-top: 0.1em solid var(--cor_fonte);
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.robo_main{
+    height: 430px;
+}
+.main_secundaria{
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    color: var(--cor_fonte);
+    align-items: center;
+}
+.main_secundaria_titulo{
+    border-top: 0.1em solid var(--cor_fonte);
+    margin: 0 3em 3em 3em;
+    padding-top: 3em;
+    font-family: var(--fonte_titulo);
+    font-size: 24px;
+}
+.main_secundaria_infos{
+    font-family: var(--font_seg);
+    font-size: 16px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+footer{
+    border-top: 0.1em solid var(--cor_fonte);
+    padding: 32px;
+}
+.footer_img{
+    display: block;
+    height: 48px;
+    margin: 0 auto;
+}
